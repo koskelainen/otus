@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 JSON_SRC_FILE = 'Habr.json'
-CSV_FILE = 'Habr.scv'
+CSV_FILE = 'Habr.csv'
 BASIC_URL = 'https://habrahabr.ru/all/'
 URL_PATTERN = r'(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s|(?!"<>)]{2,}\/|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}\/|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]\.[^\s]|(?!"<>)]{2,}\/|www\.[a-zA-Z0-9]\.[^\s|(?!"<>)]]{2,}\/)'
 URL_POSTS_PATTERN = 'https?:\/\/habrahabr.ru\/post\/(\d{2,})\/'

@@ -1,6 +1,6 @@
 import json
-from parsers.get_datetime import parse_date
-from parsers.get_counter import get_int_counter, get_float_counter, get_views_counter
+from .get_datetime import parse_date
+from .get_counter import get_int_counter, get_float_counter, get_views_counter
 import logging
 
 logging.getLogger(__name__)

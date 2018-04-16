@@ -1,5 +1,5 @@
 import csv
-from parsers.work_json import Post
+from .work_json import Post
 import logging
 
 logging.getLogger(__name__)

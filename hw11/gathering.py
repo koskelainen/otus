@@ -1,14 +1,14 @@
 import logging
 import sys
-from parsers.work_json import data_from_json
-from parsers.work_csv import write_posts_to_csv
-from scrappers.core_scrapy import run_inline_scrapper
-from constants.consts import JSON_SRC_FILE, CSV_FILE
+from hw11.parsers.work_json import data_from_json
+from hw11.parsers.work_csv import write_posts_to_csv
+from hw11.scrappers.core_scrapy import run_inline_scrapper
+from hw11.constants.consts import JSON_SRC_FILE, CSV_FILE
 import pandas as pd
 from collections import Counter
 import ast
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 

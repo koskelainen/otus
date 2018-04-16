@@ -1,5 +1,5 @@
 import datetime
-from constants.consts import RU_MONTH, PREVIOUS_DAYS
+from ..constants.consts import RU_MONTH, PREVIOUS_DAYS
 import logging
 
 logging.getLogger(__name__)
